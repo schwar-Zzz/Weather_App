@@ -10,7 +10,7 @@ const api={
 }
 
 function App() {
-  const [city, setCity] = useState(localStorage.getItem(("lastCity") || "tokyo"));
+  const [city, setCity] = useState(localStorage.getItem("lastCity") || "tokyo");
   const [weather, setWeather] = useState({});
   const [forecast, setForecast] = useState<any[]>([]);
   const [error, setError] = useState<string | null>(null);
