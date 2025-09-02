@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.custom-scrollbar::-webkit-scrollbar {
+  height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #38bdf8; /* Tailwind sky-400 */
+  border-radius: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
